@@ -1,0 +1,21 @@
+{
+    "name": "granettog/composer-alura",
+    "description": "Projeto de curso de composer da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Granettog\\ComposerAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Granetto",
+            "email": "gabriel_macedo2001@hotmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "*",
+        "guzzlehttp/guzzle": "*",
+        "symfony/css-selector": "*"
+    }
+}
